@@ -21,7 +21,7 @@ from MRFS_app2 import views as v2
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', v1.vista1),
-    path('vista2/', v1.vista2)
+    path('vista2/', v1.vista2),
     path('vista3/', v2.vista3),
     path('vista4/', v2.vista4),
 ]
